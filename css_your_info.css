@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    height: 80%;
+    width: 250px;
+    margin-top: 80px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 50px;
+    box-shadow: rgb(3, 3, 3);
+    border-radius: 10px;
+    background-color: white;
+
+}
+body {
+    background-color: #e0e2f5;
+}
+
+.part1{
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: blue;
+    padding: 20px;
+}
+
+.your_info{
+    display: flex;
+    padding: 0;
+}
+
+.cercle{
+    padding-top: 30px;
+    padding-right: 10px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 25%;
+}
