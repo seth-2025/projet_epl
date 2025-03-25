@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        }
+
+        .container {
+        display: flex;
+        min-height: 100vh;
+        }
+
+        .sidebar {
+        width: 300px;
+        background: url('/mnt/data/image.png') no-repeat center/cover;
+        padding: 30px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+
+        .steps {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        }
+
+        .step {
+        border: 1px solid white;
+        padding: 10px;
+        border-radius: 50%;
+        width: 50px;
+        text-align: center;
+        font-weight: bold;
+        }
+
+        .step.active {
+        background-color: #bfe2fd;
+        color: black;
+        }
+
+        .step span {
+        display: block;
+        font-size: 12px;
+        font-weight: normal;
+        margin-top: 5px;
+        color: white;
+        }
+
+        .content {
+        flex: 1;
+        padding: 50px;
+        background-color: #f0f6ff;
+        }
+
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essai</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+          <div class="steps">
+            <div class="step active">STEP 1<br><span>Your Info</span></div>
+            <div class="step">STEP 2<br><span>Select Plan</span></div>
+            <div class="step">STEP 3<br><span>Add-ons</span></div>
+            <div class="step">STEP 4<br><span>Summary</span></div>
+          </div>
+        </div>
+        <div class="content">
+          <!-- Ici viendra le formulaire -->
+        </div>
+      </div>
+      
+</body>
+</html>
